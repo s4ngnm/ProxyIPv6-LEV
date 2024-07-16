@@ -5,6 +5,8 @@
 #Update 2022-Oct-05: Initialize script
 
 # Final vars
+sudo apt-get update && apt-get -y upgrade
+sudo apt-get install gcc make git -y
 UPDATE_URL="https://file.lowendviet.com/Scripts/Linux/levip6/levip6"
 BIN_DIR="/usr/local/bin/"
 BIN_EXEC="${BIN_DIR}levip6"
@@ -27,14 +29,7 @@ updateScript
 
 cat << "EOF"
 ==========================================================================
-  _                             _       _      _
- | |                           | |     (_)    | |
- | | _____      _____ _ __   __| __   ___  ___| |_   ___ ___  _ __ ___
- | |/ _ \ \ /\ / / _ | '_ \ / _` \ \ / | |/ _ | __| / __/ _ \| '_ ` _ \
- | | (_) \ V  V |  __| | | | (_| |\ V /| |  __| |_ | (_| (_) | | | | | |
- |_|\___/ \_/\_/ \___|_| |_|\__,_| \_/ |_|\___|\__(_\___\___/|_| |_| |_|
-
-        IPv6 All In One v1.0 by LowendViet.com Cloud VPS Server
+        IPv6 All In One 
 ==========================================================================
 
 EOF
